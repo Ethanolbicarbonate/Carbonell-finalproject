@@ -1,0 +1,149 @@
+.logpage{
+    background-image: url(Log\ in.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e0e0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.divgroup{
+    display: flex;
+}
+.container{
+    width: 300px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 15px 15px 30px #bebebe,
+                inset -15px -15px 30px #ffffff;
+    padding: 40px 40px;
+}
+
+.container h1{
+    font-size: 42px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-shadow:2px 2px 3px #b3b3b3,
+                -2px -2px 3px #ffffff;
+}
+
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  13px 13px 26px #b3b3b3,
+                -13px -13px 26px #ffffff;
+    transition: 1s;
+}
+
+.input-box:active {
+    transform: scale(0.90);
+}
+
+.input-box input{
+    font-family: "Comfortaa", sans-serif;
+    width: 75%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.input-box input::placeholder{
+    color: gray;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: -15px 0px -15px;
+}
+
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+    transition: 0.5s;
+}
+
+.remember-forgot label input:active {
+    transform: scale(0.90);
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.input-box input[type="submit"]{
+    width: 96%;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.input-box input[type="submit"]:hover{
+    font-size: 101%;
+    scale: 102%;
+    text-shadow: 8px 5px 10px #838383;
+    font-weight: bold;
+}
+
+#submit:hover{
+    scale: 105%;
+}
+
+.textgroup{
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.textgroup h1{
+    font-size: 42px;
+    text-shadow:2px 2px 3px #b3b3b3,
+                -2px -2px 3px #ffffff;
+}
+
+.textgroup h2{
+    font-size: 28px;
+    text-shadow:2px 2px 3px #b3b3b3,
+                -2px -2px 3px #ffffff;
+}
+
+.textgroup p{
+    font-size: 14px;
+    margin-top: 50%;
+}
+
+.textgroup a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.textgroup a:hover{
+    text-decoration: underline;
+}

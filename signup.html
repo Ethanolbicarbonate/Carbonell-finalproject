@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="signstyle.css">
+    <link rel="stylesheet" type="text/css" href="headfoot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="emblem-dark.svg" alt="">
+        <h1>cICT</h1>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href=" ">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Organizations</button>
+                            <div class="dropdown-content">
+                                <a href="  ">Course&nbsp;Exclusive</a>
+                                <a href="  ">Special&nbsp;Interest</a>
+                                <a href="  ">Student&nbsp;Governance</a>
+                                <a href="  ">Publication</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Programs</button>
+                            <div class="dropdown-content">
+                                <a href="  ">Undergraduate</a>
+                                <a href="  ">Graduate</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="  ">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="logpage">
+        <div class="container">
+            <form action="index.html">
+                <h1>Sign up</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="divgroup">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Birth Date" onfocus="(this.type='date')"onblur="(this.type='text')" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="input-box" id="submit">
+                    <input type="submit" value="Create account">
+                </div>
+
+                <p>Already have an account? <a href="index.html">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+.placeholder{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(Log\ in.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Comfortaa", sans-serif;
+    text-shadow:2px 2px 3px #b3b3b3,
+    -2px -2px 3px #ffffff;
+}
+
+.placeholder img{
+    width: 300px;
+    filter: drop-shadow(15px 15px 10px #8f8f8f);
+}
+
+h1{
+    font-size: 42px;
+}
+
+p{
+    font-size: 28px;
+}
+
+.container{
+    width: 25%;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 15px 15px 30px #bebebe,
+                inset -15px -15px 30px #ffffff;
+    padding: 40px 40px;
+}
+
+.container .box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  13px 13px 26px #b3b3b3,
+                -13px -13px 26px #ffffff;
+    transition: 1s;
+}
+
+.box:active {
+    transform: scale(0.90);
+}
+
+.box:hover{
+    scale: 110%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
